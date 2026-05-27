@@ -1,0 +1,6 @@
+$ rm -rf node_modules
+$ rm -rf node_modules .next .flowbite-react package-lock.json
+npm cache clean --force
+
+
+
