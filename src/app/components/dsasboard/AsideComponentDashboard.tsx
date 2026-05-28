@@ -1,7 +1,20 @@
 "use client";
 
-import { Sidebar, SidebarItem, SidebarItemGroup, SidebarItems } from "flowbite-react";
-import { HiArrowSmRight, HiChartPie, HiInbox, HiShoppingBag, HiTable, HiUser, HiViewBoards } from "react-icons/hi";
+import {
+  Sidebar,
+  SidebarItem,
+  SidebarItemGroup,
+  SidebarItems,
+} from "flowbite-react";
+import {
+  HiArrowSmRight,
+  HiChartPie,
+  HiInbox,
+  HiShoppingBag,
+  HiTable,
+  HiUser,
+  HiViewBoards,
+} from "react-icons/hi";
 
 export default function AsideComponentDashboard() {
   return (
@@ -20,9 +33,7 @@ export default function AsideComponentDashboard() {
           <SidebarItem href="/dashboard/setting" icon={HiShoppingBag}>
             Setting
           </SidebarItem>
-          <SidebarItem href="#" icon={HiTable}>
-            Sign Up
-          </SidebarItem>
+          
         </SidebarItemGroup>
       </SidebarItems>
     </Sidebar>
